@@ -4,7 +4,7 @@ ln -s $(dirname "$(realpath $0)")/.zshrc $HOME/.zshrc
 
 echo "Installing Oh-My-Zsh..."
 cd $HOME
-sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 
 echo "Installing powerlevel10k theme..."
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
