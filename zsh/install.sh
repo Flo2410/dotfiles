@@ -1,6 +1,7 @@
 #!/bin/bash
+#$(dirname "$(realpath $0)")
 echo "Linking .zshrc"
-ln -s $(dirname "$(realpath $0)")/.zshrc $HOME/.zshrc
+ln -s $HOME/dotfiles/zsh/.zshrc $HOME/.zshrc
 
 echo "Installing Oh-My-Zsh..."
 cd $HOME
@@ -10,7 +11,7 @@ echo "Installing powerlevel10k theme..."
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 
 echo "Linking .p10k.zsh"
-ln -s $(dirname "$(realpath $0)")/omz/.p10k.zsh $HOME/.p10k.zsh
+ln -s $HOME/dotfiles/zsh/omz/.p10k.zsh $HOME/.p10k.zsh
 
 echo "Linking Oh-My-Zsh custom"
-ln -s $(dirname "$(realpath $0)")/omz/custom $HOME/.oh-my-zsh/
+ln -s $HOME/dotfiles/zsh/omz/custom $HOME/.oh-my-zsh/
