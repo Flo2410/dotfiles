@@ -15,3 +15,7 @@ ln -s $HOME/dotfiles/zsh/omz/.p10k.zsh $HOME/.p10k.zsh
 
 echo "Linking Oh-My-Zsh custom aliases"
 ln -s $HOME/dotfiles/zsh/omz/custom/* $HOME/.oh-my-zsh/custom
+
+
+echo "Reloading ZSH..."
+. ~/.zshrc
