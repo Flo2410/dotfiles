@@ -13,4 +13,4 @@ echo "Linking .p10k.zsh"
 ln -s $(dirname "$(realpath $0)")/omz/.p10k.zsh $HOME/.p10k.zsh
 
 echo "Linking Oh-My-Zsh custom"
-ln -s $(dirname "$(realpath $0)")/omz/custom $HOME/.oh-my-zsh/custom
+ln -s $(dirname "$(realpath $0)")/omz/custom $HOME/.oh-my-zsh/
