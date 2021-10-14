@@ -13,8 +13,5 @@ ln -sf $HOME/dotfiles/zsh/.zshrc $HOME/.zshrc
 echo "Linking .p10k.zsh"
 ln -s $HOME/dotfiles/zsh/omz/.p10k.zsh $HOME/.p10k.zsh
 
-echo "Removing original Oh-My-Zsh custom folder"
-rm -rf $HOME/.oh-my-zsh/custom
-
-echo "Linking Oh-My-Zsh custom"
-ln -s $HOME/dotfiles/zsh/omz/custom $HOME/.oh-my-zsh/
+echo "Linking Oh-My-Zsh custom aliases"
+ln -s $HOME/dotfiles/zsh/omz/custom/* $HOME/.oh-my-zsh/custom
