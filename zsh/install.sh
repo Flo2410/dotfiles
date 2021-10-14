@@ -13,5 +13,8 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 echo "Linking .p10k.zsh"
 ln -s $HOME/dotfiles/zsh/omz/.p10k.zsh $HOME/.p10k.zsh
 
+echo "Removing original Oh-My-Zsh custom folder"
+rm -rf $HOME/.oh-my-zsh/custom
+
 echo "Linking Oh-My-Zsh custom"
 ln -s $HOME/dotfiles/zsh/omz/custom $HOME/.oh-my-zsh/
