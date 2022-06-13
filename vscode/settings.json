@@ -4,6 +4,7 @@
   "terminal.integrated.shell.osx": "/bin/zsh",
   "terminal.integrated.fontFamily": "Roboto Mono for Powerline",
   "explorer.confirmDelete": false,
+  "debug.toolBarLocation": "docked",
   "workbench.iconTheme": "material-icon-theme",
   "jsxBracketSameLine": true,
   "[javascript]": {
@@ -20,7 +21,6 @@
   "editor.fontLigatures": true,
   "editor.codeLensFontFamily": "\"\"",
   "editor.inlineHints.fontFamily": "'Cascadia Code'",
-  "workbench.colorTheme": "Night Owl",
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
   "editor.tokenColorCustomizations": {
@@ -125,5 +125,8 @@
   "nasc-touchbar.showCommands": false,
   "nasc-touchbar.peekDefinition": true,
   "nasc-touchbar.goToDefinition": false,
-  "settingsSync.ignoredSettings": ["editor.formatOnSave"]
+  "settingsSync.ignoredSettings": ["editor.formatOnSave"],
+  "diffEditor.ignoreTrimWhitespace": false,
+  "workbench.startupEditor": "none",
+  "workbench.colorTheme": "Night Owl"
 }
