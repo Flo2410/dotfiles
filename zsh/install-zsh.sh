@@ -15,8 +15,10 @@ echo "Linking .p10k.zsh"
 ln -sf $HOME/dotfiles/zsh/omz/.p10k.zsh $HOME/.p10k.zsh
 
 echo "Linking Oh-My-Zsh custom aliases"
-ln -sf $HOME/dotfiles/zsh/omz/custom/* $HOME/.oh-my-zsh/custom
+ln -sf $HOME/dotfiles/zsh/omz/custom/aliases.zsh $HOME/.oh-my-zsh/custom
 
+echo "Linking Oh-My-Zsh custom themes"
+ln -sf $HOME/dotfiles/zsh/omz/custom/themes/* $HOME/.oh-my-zsh/custom/themes
 
 echo "Reloading ZSH..."
 . ~/.zshrc
