@@ -4,6 +4,7 @@ alias go.node="cd ~/Syncthing/Programmieren/Node"
 alias go.web="cd ~/Syncthing/Programmieren/Web"
 alias go.react="cd ~/Syncthing/Programmieren/React"
 alias go.dpl="cd ~/Syncthing/Programmieren/Node/dpl_v4"
+alias go.esp="cd ~/Syncthing/Programmieren/esp"
 
 # go into fhwn folders
 alias go.fhwnRoot="cd ~/Syncthing/Dokumente/Schule/FHWN/"
@@ -16,6 +17,8 @@ alias go.fhwn="go.fhwnS4"
 # go into work dirs
 alias go.expanic="cd ~/Syncthing/Dokumente/Arbeit/expanic"
 
+# load esp-idf
+alias load.esp-idf=". $HOME/esp/esp-idf/export.sh"
 
 # Find & Delete all ".DS_Store" files (recursive)
 alias delete.ds="find . -name '.DS_Store' -type f -print -delete"

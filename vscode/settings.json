@@ -95,7 +95,6 @@
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "prettier.printWidth": 100,
   "[python]": {
     "editor.defaultFormatter": "ms-python.python",
     "editor.insertSpaces": true,
@@ -128,5 +127,25 @@
   "settingsSync.ignoredSettings": ["editor.formatOnSave"],
   "diffEditor.ignoreTrimWhitespace": false,
   "workbench.startupEditor": "none",
-  "workbench.colorTheme": "Night Owl"
+  "workbench.colorTheme": "Night Owl",
+  "prettier.printWidth": 100,
+  "npm.keybindingsChangedWarningShown": true,
+  "tailwindCSS.emmetCompletions": true,
+  "idf.espIdfPath": "/Users/florian/Syncthing/Programmieren/esp/esp-idf",
+  "idf.pythonBinPath": "/Users/florian/Syncthing/Programmieren/esp/.espressif/python_env/idf4.4_py3.9_env/bin/python",
+  "idf.toolsPath": "/Users/florian/Syncthing/Programmieren/esp/.espressif",
+  "idf.customExtraPaths": "/Users/florian/Syncthing/Programmieren/esp/.espressif/tools/xtensa-esp32-elf/esp-2021r2-patch3-8.4.0/xtensa-esp32-elf/bin:/Users/florian/Syncthing/Programmieren/esp/.espressif/tools/xtensa-esp32s2-elf/esp-2021r2-patch3-8.4.0/xtensa-esp32s2-elf/bin:/Users/florian/Syncthing/Programmieren/esp/.espressif/tools/xtensa-esp32s3-elf/esp-2021r2-patch3-8.4.0/xtensa-esp32s3-elf/bin:/Users/florian/Syncthing/Programmieren/esp/.espressif/tools/riscv32-esp-elf/esp-2021r2-patch3-8.4.0/riscv32-esp-elf/bin:/Users/florian/Syncthing/Programmieren/esp/.espressif/tools/esp32ulp-elf/2.28.51-esp-20191205/esp32ulp-elf-binutils/bin:/Users/florian/Syncthing/Programmieren/esp/.espressif/tools/esp32s2ulp-elf/2.28.51-esp-20191205/esp32s2ulp-elf-binutils/bin:/Users/florian/Syncthing/Programmieren/esp/.espressif/tools/cmake/3.20.3/CMake.app/Contents/bin:/Users/florian/Syncthing/Programmieren/esp/.espressif/tools/openocd-esp32/v0.11.0-esp32-20211220/openocd-esp32/bin:/Users/florian/Syncthing/Programmieren/esp/.espressif/tools/ninja/1.10.2",
+  "idf.customExtraVars": "{\"OPENOCD_SCRIPTS\":\"/Users/florian/Syncthing/Programmieren/esp/.espressif/tools/openocd-esp32/v0.11.0-esp32-20211220/openocd-esp32/share/openocd/scripts\"}",
+  "idf.gitPath": "/usr/bin/git",
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "idf.openOcdConfigs": ["interface/ftdi/esp32_devkitj_v1.cfg", "target/esp32.cfg"],
+  "idf.adapterTargetName": "esp32",
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "idf.flashType": "JTAG",
+  "idf.pythonBinPathWin": "/Users/florian/.pyenv/versions/3.9.1/bin/python",
+  "cmake.configureOnOpen": true
 }

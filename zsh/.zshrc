@@ -134,3 +134,10 @@ fi
 
 export EDITOR=/usr/bin/nano
 export VISUAL=/usr/bin/nano
+
+# bun completions
+[ -s "/Users/florian/.bun/_bun" ] && source "/Users/florian/.bun/_bun"
+
+# bun
+export BUN_INSTALL="/Users/florian/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
