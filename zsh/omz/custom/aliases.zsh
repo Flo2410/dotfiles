@@ -18,7 +18,7 @@ alias go.fhwn="go.fhwnS4"
 alias go.expanic="cd ~/Syncthing/Dokumente/Arbeit/expanic"
 
 # load esp-idf
-alias load.esp-idf=". $HOME/esp/esp-idf/export.sh"
+alias load.idf=". $HOME/esp/esp-idf/export.sh"
 
 # Find & Delete all ".DS_Store" files (recursive)
 alias delete.ds="find . -name '.DS_Store' -type f -print -delete"
