@@ -12,13 +12,18 @@ alias go.fhwnS1="cd ~/Syncthing/Dokumente/Schule/FHWN/1_Semester_W2020"
 alias go.fhwnS2="cd ~/Syncthing/Dokumente/Schule/FHWN/2_Semester_S2021"
 alias go.fhwnS3="cd ~/Syncthing/Dokumente/Schule/FHWN/3_Semester_W2021"
 alias go.fhwnS4="cd ~/Syncthing/Dokumente/Schule/FHWN/4_Semester_S2022"
-alias go.fhwn="go.fhwnS4"
+alias go.fhwnS5="cd ~/Syncthing/Dokumente/Schule/FHWN/5_Semester_w2022"
+alias go.fhwn="go.fhwnS5"
 
 # go into work dirs
 alias go.expanic="cd ~/Syncthing/Dokumente/Arbeit/expanic"
 
 # load esp-idf
 alias load.idf=". $HOME/esp/esp-idf/export.sh"
+
+# settings
+alias settings.conda.show_env="conda config --set changeps1 true"
+alias settings.conda.hide_env="conda config --set changeps1 false"
 
 # Find & Delete all ".DS_Store" files (recursive)
 alias delete.ds="find . -name '.DS_Store' -type f -print -delete"
