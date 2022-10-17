@@ -2,7 +2,7 @@
   "git.autofetch": true,
   "git.confirmSync": false,
   "terminal.integrated.shell.osx": "/bin/zsh",
-  "terminal.integrated.fontFamily": "Roboto Mono for Powerline",
+  "terminal.integrated.fontFamily": "Roboto Mono",
   "explorer.confirmDelete": false,
   "debug.toolBarLocation": "docked",
   "workbench.iconTheme": "material-icon-theme",
