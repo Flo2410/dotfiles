@@ -152,5 +152,6 @@
   "hexeditor.showDecodedText": true,
   "hexeditor.defaultEndianness": "little",
   "hexeditor.inspectorType": "aside",
-  "vscode-color-picker.languages": ["python", "javascript", "typescript", "typescriptreact"]
+  "vscode-color-picker.languages": ["python", "javascript", "typescript", "typescriptreact"],
+  "terminal.integrated.defaultProfile.linux": "zsh"
 }
