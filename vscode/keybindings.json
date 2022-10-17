@@ -27,9 +27,5 @@
   {
     "key": "alt+cmd+n",
     "command": "explorer.newFolder"
-  },
-  {
-    "key": "ctrl+shift+[Backslash]",
-    "command": "workbench.action.terminal.newInActiveWorkspace"
   }
 ]
