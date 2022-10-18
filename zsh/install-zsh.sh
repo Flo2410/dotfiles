@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 #$(dirname "$(realpath $0)")
 echo "Installing Oh-My-Zsh..."
 cd $HOME
