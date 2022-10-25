@@ -14,6 +14,7 @@ alias go.fhwnS3="cd ~/Syncthing/Dokumente/Schule/FHWN/3_Semester_W2021"
 alias go.fhwnS4="cd ~/Syncthing/Dokumente/Schule/FHWN/4_Semester_S2022"
 alias go.fhwnS5="cd ~/Syncthing/Dokumente/Schule/FHWN/5_Semester_w2022"
 alias go.fhwn="go.fhwnS5"
+alias go.mobi="cd ~/Syncthing/Dokumente/Schule/FHWN/5_Semester_w2022/Mobile_Robotik_Projekt_2_PT/code"
 
 # go into work dirs
 alias go.expanic="cd ~/Syncthing/Dokumente/Arbeit/expanic"
@@ -29,3 +30,6 @@ alias settings.conda.hide_env="conda config --set changeps1 false"
 alias delete.ds="find . -name '.DS_Store' -type f -print -delete"
 
 alias zsh.reload=". ~/.zshrc"
+
+# git
+alias gap="git add -p"
