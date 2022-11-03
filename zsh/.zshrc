@@ -110,37 +110,16 @@ source $ZSH/oh-my-zsh.sh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-if [ /usr/local/bin/kubectl ]; then source <(kubectl completion zsh); fi
-
-
 
 #custom env
-export JAVA_HOME=$(/usr/libexec/java_home)
-export KUBECONFIG=$HOME/.kube/config:$HOME/.kube/cs-cluster-kubeconfig.yaml
 export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
 
 #add all ssh keys
 #ssh-add -A
 
-#pyenv
-export PYENV_ROOT="$HOME/.pyenv"
-export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init --path)"
-
-if command -v pyenv 1>/dev/null 2>&1; then
-  eval "$(pyenv init -)"
-fi
-
-
 export EDITOR=/usr/bin/nano
 export VISUAL=/usr/bin/nano
 
-# bun completions
-[ -s "/Users/florian/.bun/_bun" ] && source "/Users/florian/.bun/_bun"
-
-# bun
-export BUN_INSTALL="/Users/florian/.bun"
-export PATH="$BUN_INSTALL/bin:$PATH"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!

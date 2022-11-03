@@ -2,6 +2,7 @@
 echo "Starting full install..."
 
 ./zsh/install-zsh.sh
+./git/install-git.sh
 
 if [ $(uname -s) = "Linux" ]; then
   echo "Linux"
