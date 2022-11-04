@@ -35,5 +35,5 @@ alias zsh.reload=". ~/.zshrc"
 alias gap="git add -p"
 
 # python
-alias python="python3"
-alias pip="pip3"
+#alias python="python3"
+#alias pip="pip3"
