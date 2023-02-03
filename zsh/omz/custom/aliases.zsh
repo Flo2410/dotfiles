@@ -12,9 +12,10 @@ alias go.fhwnS1="cd ~/Syncthing/Dokumente/Schule/FHWN/1_Semester_W2020"
 alias go.fhwnS2="cd ~/Syncthing/Dokumente/Schule/FHWN/2_Semester_S2021"
 alias go.fhwnS3="cd ~/Syncthing/Dokumente/Schule/FHWN/3_Semester_W2021"
 alias go.fhwnS4="cd ~/Syncthing/Dokumente/Schule/FHWN/4_Semester_S2022"
-alias go.fhwnS5="cd ~/Syncthing/Dokumente/Schule/FHWN/5_Semester_w2022"
-alias go.fhwn="go.fhwnS5"
-alias go.mobi="cd ~/Syncthing/Dokumente/Schule/FHWN/5_Semester_w2022/Mobile_Robotik_Projekt_2_PT/code"
+alias go.fhwnS5="cd ~/Syncthing/Dokumente/Schule/FHWN/5_Semester_W2022"
+alias go.fhwnS6="cd ~/Syncthing/Dokumente/Schule/FHWN/6_Semester_S2023"
+alias go.fhwn="go.fhwnS6"
+alias go.bac="cd ~/Syncthing/Dokumente/Schule/FHWN/6_Semester_S2023/BAC"
 
 # go into work dirs
 alias go.expanic="cd ~/Syncthing/Dokumente/Arbeit/expanic"
