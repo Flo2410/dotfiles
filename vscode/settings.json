@@ -2,7 +2,7 @@
   "git.autofetch": true,
   "git.confirmSync": false,
   "terminal.integrated.defaultProfile.osx": "zsh",
-  "terminal.integrated.fontFamily": "Roboto Mono",
+  "terminal.integrated.fontFamily": "Fira Code",
   "explorer.confirmDelete": false,
   "debug.toolBarLocation": "docked",
   "workbench.iconTheme": "material-icon-theme",
@@ -16,13 +16,13 @@
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
   "editor.formatOnSave": true,
-  "editor.fontFamily": "'Roboto Mono'",
+  "editor.fontFamily": "Fira Code",
   "editor.fontSize": 13,
   "editor.fontLigatures": true,
   "editor.codeLensFontFamily": "\"\"",
-  "editor.inlineHints.fontFamily": "'Roboto Mono'",
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
+  "editor.renderWhitespace": "all",
   "editor.tokenColorCustomizations": {
     "[Night Owl]": {
       "textMateRules": [
@@ -98,7 +98,8 @@
   "[python]": {
     "editor.defaultFormatter": "ms-python.python",
     "editor.insertSpaces": true,
-    "editor.tabSize": 4
+    "editor.tabSize": 4,
+    "editor.formatOnType": true
   },
   "python.formatting.autopep8Path": "",
   "python.formatting.provider": "black",
@@ -153,5 +154,39 @@
   "hexeditor.defaultEndianness": "little",
   "hexeditor.inspectorType": "aside",
   "vscode-color-picker.languages": ["python", "javascript", "typescript", "typescriptreact"],
-  "terminal.integrated.defaultProfile.linux": "zsh"
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "editor.minimap.enabled": false,
+  "ltex.language": "de-AT",
+  "ltex.additionalRules.motherTongue": "de-AT",
+  "ltex.additionalRules.enablePickyRules": true,
+  "ltex.configurationTarget": {
+    "dictionary": "userExternalFile",
+    "disabledRules": "userExternalFile",
+    "hiddenFalsePositives": "userExternalFile"
+  },
+  "ltex.completionEnabled": true,
+  "editor.wordBasedSuggestions": false,
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+  "editor.inlayHints.fontFamily": "Fira Code",
+  "workbench.colorCustomizations": {
+    // Name of the theme you are currently using
+    "[Night Owl]": {
+      "editorInlayHint.foreground": "#f0f0f093",
+      "editorInlayHint.background": "#082e4968"
+    }
+  },
+  "[latex]": {
+    "editor.defaultFormatter": "James-Yu.latex-workshop",
+    "editor.formatOnSave": false
+  },
+  "redhat.telemetry.enabled": false,
+  "terminal.external.osxExec": "iTerm.app",
+  "[cmake]": {
+    "editor.defaultFormatter": "cheshirekow.cmake-format"
+  },
+  "stm32-for-vscode.openOCDPath": "/Users/florian/Library/Application Support/Code/User/globalStorage/bmd.stm32-for-vscode/@xpack-dev-tools/openocd/0.12.0-1.1/.content/bin/openocd",
+  "stm32-for-vscode.makePath": "/usr/bin/make",
+  "stm32-for-vscode.armToolchainPath": "/Users/florian/Library/Application Support/Code/User/globalStorage/bmd.stm32-for-vscode/@xpack-dev-tools/arm-none-eabi-gcc/11.3.1-1.1.2/.content/bin"
 }
