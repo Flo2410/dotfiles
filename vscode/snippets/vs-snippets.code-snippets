@@ -27,5 +27,23 @@
     "prefix": ["useMultiTranslation", "tm"],
     "body": ["const { t } = useTranslation(['${1:common}', '$2']);", "$0"],
     "description": "Create the useTranslation with multiple namespaces."
+  },
+  "impuuidv4": {
+    "scope": "javascript,typescript,javascriptreact,typescriptreact",
+    "prefix": ["impuuidv4"],
+    "body": ["import { v4 as uuidv4 } from \"uuid\";$0"],
+    "description": "Import the uuidv4 function"
+  },
+  "expaf": {
+    "scope": "javascript,typescript,javascriptreact,typescriptreact",
+    "prefix": ["expaf"],
+    "body": ["export const ${1:fn} = ($2) => {", "\t$0", "}"],
+    "description": "Export an arrow function"
+  },
+  "expaaf": {
+    "scope": "javascript,typescript,javascriptreact,typescriptreact",
+    "prefix": ["expaaf"],
+    "body": ["export const ${1:fn} = async ($2) => {", "\t$0", "}"],
+    "description": "Export an async arrow function"
   }
 }
