@@ -113,7 +113,7 @@ source $ZSH/oh-my-zsh.sh
 
 #custom env
 export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
-export CPATH=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Perl/5.34/darwin-thread-multi-2level/CORE:$CPATH
+# export CPATH=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Perl/5.34/darwin-thread-multi-2level/CORE:$CPATH
 
 
 #add all ssh keys
