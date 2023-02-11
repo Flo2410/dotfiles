@@ -187,7 +187,8 @@
     "editor.defaultFormatter": "cheshirekow.cmake-format"
   },
   "stm32-for-vscode.makePath": "/usr/bin/make",
-  "stm32-for-vscode.openOCDPath": "/Users/florian/Library/Application Support/Code/User/globalStorage/bmd.stm32-for-vscode/@xpack-dev-tools/openocd/0.12.0-1.1/.content/bin/openocd",
-  "stm32-for-vscode.armToolchainPath": "/Users/florian/Library/Application Support/Code/User/globalStorage/bmd.stm32-for-vscode/@xpack-dev-tools/arm-none-eabi-gcc/11.3.1-1.1.2/.content/bin",
-  "ltex.dictionary": {}
+  "stm32-for-vscode.openOCDPath": "/home/florian/.config/Code/User/globalStorage/bmd.stm32-for-vscode/@xpack-dev-tools/openocd/0.12.0-1.1/.content/bin/openocd",
+  "stm32-for-vscode.armToolchainPath": "/home/florian/.config/Code/User/globalStorage/bmd.stm32-for-vscode/@xpack-dev-tools/arm-none-eabi-gcc/12.2.1-1.2.1/.content/bin",
+  "ltex.dictionary": {},
+  "telemetry.telemetryLevel": "off"
 }
