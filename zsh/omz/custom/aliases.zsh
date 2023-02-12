@@ -35,6 +35,12 @@ alias zsh.reload=". ~/.zshrc"
 # git
 alias gap="git add -p"
 
+# custom stuff
+alias mjölnir="~/syncthing/Development/reverse-engineering/Mjölnir/mjölnir.sh"
+
+# onedrive
+alias odsync="onedrive --synchronize --verbose"
+
 # python
 #alias python="python3"
 #alias pip="pip3"
