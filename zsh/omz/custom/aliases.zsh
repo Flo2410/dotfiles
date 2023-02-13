@@ -39,7 +39,7 @@ alias gap="git add -p"
 alias mjölnir="~/syncthing/Development/reverse-engineering/Mjölnir/mjölnir.sh"
 
 # onedrive
-alias odsync="onedrive --synchronize --verbose"
+# alias odsync="onedrive --synchronize --verbose"
 
 # python
 #alias python="python3"
