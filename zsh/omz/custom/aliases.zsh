@@ -1,5 +1,5 @@
 # go into the programming folder
-alias go.prg="cd ~/syncthing/Development"
+alias go.dev="cd ~/syncthing/Development"
 alias go.node="cd ~/syncthing/Development/Node"
 alias go.web="cd ~/syncthing/Development/Web"
 alias go.react="cd ~/syncthing/Development/React"
