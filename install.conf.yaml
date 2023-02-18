@@ -20,10 +20,18 @@
 # - [. ~/.zshrc, Reload zsh]
 
 - link:
-    ~/.config/git/config: git/config
+    # .config dir
+    ~/.config/:
+      glob: true
+      path: config/*
+      exclude: [config/vscode]
+
+    # VS Code
     ~/.config/Code/User/:
       glob: true
-      path: vscode/*
+      path: config/vscode/*
+
+    # ZSH
     ~/.zshrc:
       path: zsh/.zshrc
       force: true
