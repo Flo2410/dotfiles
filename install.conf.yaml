@@ -28,13 +28,12 @@
     ~/.oh-my-zsh/custom/themes:
       glob: true
       path: zsh/omz/custom/themes/*
+# - create:
+#     ~/.ssh:
+#       mode: 0700
 
-- create:
-    ~/.ssh:
-      mode: 0700
-
-    # - [
-    #     "git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k",
-    #     Installing powerlevel10k theme,
-    #   ]
-    # - [. ~/.zshrc, Reload zsh]
+# - [
+#     "git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k",
+#     Installing powerlevel10k theme,
+#   ]
+# - [. ~/.zshrc, Reload zsh]
