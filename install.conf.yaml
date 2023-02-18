@@ -1,0 +1,39 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+
+- clean: ["~"]
+
+- link:
+    ~/.config/git/config: git/config
+    ~/.config/Code/User/:
+      glob: true
+      path: vscode/*
+    ~/.zshrc:
+      path: zsh/.zshrc
+      force: true
+    ~/.oh-my-zsh/custom:
+      glob: true
+      path: zsh/omz/custom/*
+    ~/.oh-my-zsh/custom/themes:
+      glob: true
+      path: zsh/omz/custom/themes/*
+
+- create:
+    ~/.ssh:
+      mode: 0700
+
+- shell:
+    - [git submodule update --init --recursive, Installing submodules]
+    - [sudo apt install -y zsh, Installing zsh]
+    - [chsh -s $(which zsh), Making zsh the default shell]
+    - [
+        zsh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended,
+        Installing oh-my-zsh,
+      ]
+    # - [
+    #     "git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k",
+    #     Installing powerlevel10k theme,
+    #   ]
+    - [. ~/.zshrc, Reload zsh]
