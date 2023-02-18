@@ -29,7 +29,7 @@
     - [apt install -y zsh, Installing zsh]
     - [chsh -s $(which zsh), Making zsh the default shell]
     - [
-        zsh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended,
+        /bin/zsh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended,
         Installing oh-my-zsh,
       ]
     # - [
