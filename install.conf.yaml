@@ -25,6 +25,7 @@
     ~/.oh-my-zsh/custom:
       glob: true
       path: zsh/omz/custom/*
+      force: true
     # ~/.oh-my-zsh/custom/themes:
     #   glob: true
     #   path: zsh/omz/custom/themes/*
