@@ -37,6 +37,7 @@ alias gap="git add -p"
 
 # custom stuff
 alias mjölnir="~/syncthing/Development/reverse-engineering/Mjölnir/mjölnir.sh"
+alias clip="xclip -sel clip"
 
 # onedrive
 # alias odsync="onedrive --synchronize --verbose"
