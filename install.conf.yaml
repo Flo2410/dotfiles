@@ -5,6 +5,15 @@
 
 - clean: ["~"]
 
+- shell:
+    - [git submodule update --init --recursive, Installing submodules]
+    - [apt install -y zsh, Installing zsh]
+    - [chsh -s $(which zsh), Making zsh the default shell]
+    - [
+        sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended,
+        Installing oh-my-zsh,
+      ]
+
 - link:
     ~/.config/git/config: git/config
     ~/.config/Code/User/:
@@ -24,14 +33,6 @@
     ~/.ssh:
       mode: 0700
 
-- shell:
-    - [git submodule update --init --recursive, Installing submodules]
-    - [apt install -y zsh, Installing zsh]
-    - [chsh -s $(which zsh), Making zsh the default shell]
-    - [
-        sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended,
-        Installing oh-my-zsh,
-      ]
     # - [
     #     "git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k",
     #     Installing powerlevel10k theme,
