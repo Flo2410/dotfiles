@@ -7,10 +7,10 @@
 
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
-    - [apt install -y zsh, Installing zsh]
-    - [chsh -s $(which zsh), Making zsh the default shell]
+    - ['if [ $SHELL != "/bin/zsh" ]; then apt install -y zsh; fi', Installing zsh]
+    - ['if [ $SHELL != "/bin/zsh" ]; then chsh -s $(which zsh); fi', Making zsh the default shell]
     - [
-        sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended,
+        'if [ ! -d "$HOME/.oh-my-zsh" ]; then sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended; fi',
         Installing oh-my-zsh,
       ]
 # - [
