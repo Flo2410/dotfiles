@@ -39,6 +39,11 @@
       glob: true
       path: zsh/omz/custom/*
       force: true
+
+    # KDE Konsole
+    ~/.local/share/konsole:
+      glob: true
+      path: local/share/konsole/*
 # - create:
 #     ~/.ssh:
 #       mode: 0700

@@ -1,0 +1,28 @@
+[Appearance]
+HideSkinBorders=true
+Skin=materia-otto
+SkinInstalledWithKns=true
+
+[Desktop Entry]
+DefaultProfile=Blue_Konsole.profile
+
+[Dialogs]
+FirstRun=false
+
+[KFileDialog Settings]
+detailViewIconSize=16
+
+[Notification Messages]
+hinding_title_bar=false
+
+[Shortcuts]
+close-session=Ctrl+W
+new-session=Ctrl+T
+
+[Window]
+DynamicTabTitles=true
+Height=60
+KeepOpen=false
+Position=51
+ShowOnAllDesktops=false
+ShowTitleBar=false
