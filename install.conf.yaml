@@ -25,9 +25,9 @@
     ~/.oh-my-zsh/custom:
       glob: true
       path: zsh/omz/custom/*
-    ~/.oh-my-zsh/custom/themes:
-      glob: true
-      path: zsh/omz/custom/themes/*
+    # ~/.oh-my-zsh/custom/themes:
+    #   glob: true
+    #   path: zsh/omz/custom/themes/*
 # - create:
 #     ~/.ssh:
 #       mode: 0700
