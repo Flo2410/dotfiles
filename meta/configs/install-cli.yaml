@@ -1,7 +1,7 @@
 - shell:
     - ['if [ $SHELL != "/bin/zsh" ]; then apt install -y zsh; fi', Installing zsh]
     - ['if [ $SHELL != "/bin/zsh" ]; then chsh -s $(which zsh); fi', Making zsh the default shell]
-    - [apt install curl, Installing curl]
-    - [apt install btop, Installing btop]
-    - [apt install htop, Installing htop]
-    - [apt install neofetch, Installing neofetch]
+    - [apt install curl -y, Installing curl]
+    - [apt install btop -y, Installing btop]
+    - [apt install htop -y, Installing htop]
+    - [apt install neofetch -y, Installing neofetch]
