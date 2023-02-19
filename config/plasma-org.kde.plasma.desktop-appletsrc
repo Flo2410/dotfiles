@@ -1,0 +1,68 @@
+[ActionPlugins][0]
+MiddleButton;NoModifier=org.kde.paste
+RightButton;NoModifier=org.kde.contextmenu
+wheel:Vertical;NoModifier=org.kde.switchdesktop
+
+[ActionPlugins][0][RightButton;NoModifier]
+_add panel=true
+_context=true
+_display_settings=true
+_lock_screen=false
+_logout=false
+_run_command=false
+_sep1=true
+_sep2=true
+_sep3=true
+_wallpaper=true
+add widgets=true
+configure=true
+configure shortcuts=false
+edit mode=true
+manage activities=true
+remove=true
+
+[ActionPlugins][1]
+RightButton;NoModifier=org.kde.contextmenu
+
+[Containments][25]
+ItemGeometries-1805x1203=
+ItemGeometries-2256x1504=
+ItemGeometriesHorizontal=
+activityId=ea856afc-d055-4cd4-85ac-a603827b9016
+formfactor=0
+immutability=1
+lastScreen=0
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][25][ConfigDialog]
+DialogHeight=941
+DialogWidth=1750
+
+[Containments][25][General]
+ToolBoxButtonState=topcenter
+ToolBoxButtonX=477
+ToolBoxButtonY=40
+positions={"2256x1504":[]\\,"1920x1080":[""]\\,"1920x1200":[""]}
+sortMode=-1
+
+[Containments][25][Wallpaper][org.kde.image][General]
+Image=/home/florian/dotfiles/wallpapers/framework/Abstract_1-hue_logo.jpg
+SlidePaths=/usr/share/plasma/wallpapers,/usr/share/wallpapers
+
+[Containments][53]
+activityId=ea856afc-d055-4cd4-85ac-a603827b9016
+formfactor=0
+immutability=1
+lastScreen=1
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][53][Wallpaper][org.kde.image][General]
+Image=file:///usr/share/wallpapers/Next/contents/images/1920x1080.jpg
+
+[ScreenMapping]
+itemsOnDisabledScreens=
+screenMapping=file:///home/florian/Desktop/STM32 CubeMX.desktop,0,ea856afc-d055-4cd4-85ac-a603827b9016,file:///home/florian/Desktop/MATLAB_R2022b.desktop,0,ea856afc-d055-4cd4-85ac-a603827b9016
