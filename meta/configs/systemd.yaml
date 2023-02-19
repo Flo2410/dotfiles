@@ -1,0 +1,4 @@
+- link:
+    /etc/systemd/timesyncd.conf:
+      path: systemd/timesyncd.conf
+      force: true
