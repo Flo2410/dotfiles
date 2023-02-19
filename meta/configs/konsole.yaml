@@ -1,0 +1,9 @@
+- link:
+    # Profiles
+    ~/.local/share/konsole:
+      glob: true
+      path: local/share/konsole/*
+
+    # Configs
+    ~/.config/konsolerc: config/konsolerc
+    ~/.config/yakuakerc: config/yakuakerc

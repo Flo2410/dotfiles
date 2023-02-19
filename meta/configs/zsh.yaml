@@ -1,0 +1,15 @@
+- shell:
+    - [
+        'if [ ! -d "$HOME/.oh-my-zsh" ]; then zsh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended; fi',
+        Installing oh-my-zsh,
+      ]
+
+- link:
+    # ZSH
+    ~/.zshrc:
+      path: zsh/.zshrc
+      force: true
+    ~/.oh-my-zsh/custom:
+      glob: true
+      path: zsh/omz/custom/*
+      force: true

@@ -1,0 +1,3 @@
+- shell:
+    - ['if [ $SHELL != "/bin/zsh" ]; then apt install -y zsh; fi', Installing zsh]
+    - ['if [ $SHELL != "/bin/zsh" ]; then chsh -s $(which zsh); fi', Making zsh the default shell]

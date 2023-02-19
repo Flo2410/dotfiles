@@ -1,0 +1,3 @@
+- shell:
+    - [apt update, APT update]
+    - [apt upgrade -y, APT upgrade]

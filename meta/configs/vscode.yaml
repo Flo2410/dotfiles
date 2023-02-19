@@ -1,0 +1,4 @@
+- link:
+    ~/.config/Code/User/:
+      glob: true
+      path: config/vscode/*
