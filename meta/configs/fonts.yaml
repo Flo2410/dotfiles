@@ -1,0 +1,2 @@
+- shell:
+    - [apt install fonts-firacode, Installing Fira Code]

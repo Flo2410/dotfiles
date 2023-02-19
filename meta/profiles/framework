@@ -2,6 +2,7 @@ update-sudo
 install-programs-sudo
 git
 zsh
+fonts-sudo
 vscode
 konsole
 systemd-sudo
