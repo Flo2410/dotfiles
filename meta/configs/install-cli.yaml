@@ -1,5 +1,5 @@
 - shell:
-    - ['if [ $SHELL != "/bin/zsh" ]; then apt install -y zsh; fi', Installing zsh]
+    - [apt install -y zsh, Installing zsh]
     - ['if [ $SHELL != "/bin/zsh" ]; then chsh -s $(which zsh); fi', Making zsh the default shell]
     - [apt install curl -y, Installing curl]
     - [apt install btop -y, Installing btop]
