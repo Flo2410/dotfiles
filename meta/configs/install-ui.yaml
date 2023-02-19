@@ -1,0 +1,3 @@
+- shell:
+    - [apt install latte-dock, Installing Latte Dock]
+    - [apt install yakuake, Installing Yakuake]

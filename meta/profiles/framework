@@ -1,5 +1,6 @@
 update-sudo
-install-programs-sudo
+install-cli-sudo
+install-ui-sudo
 git
 zsh
 fonts-sudo
