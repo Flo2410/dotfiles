@@ -1,5 +1,4 @@
 [ActionPlugins][0]
-MiddleButton;NoModifier=org.kde.paste
 RightButton;NoModifier=org.kde.contextmenu
 wheel:Vertical;NoModifier=org.kde.switchdesktop
 
@@ -48,7 +47,7 @@ positions={"2256x1504":[]\\,"1920x1080":[""]\\,"1920x1200":[""]}
 sortMode=-1
 
 [Containments][25][Wallpaper][org.kde.image][General]
-Image=/home/florian/dotfiles/wallpapers/framework/Abstract_1-hue_logo.jpg
+Image=file:///home/florian/dotfiles/wallpapers/framework/Abstract_1-hue_logo.jpg
 SlidePaths=/usr/share/plasma/wallpapers,/usr/share/wallpapers
 
 [Containments][53]
@@ -62,6 +61,29 @@ wallpaperplugin=org.kde.image
 
 [Containments][53][Wallpaper][org.kde.image][General]
 Image=file:///usr/share/wallpapers/Next/contents/images/1920x1080.jpg
+
+[Containments][55]
+ItemGeometries-1920x1200=
+ItemGeometriesHorizontal=
+activityId=ea856afc-d055-4cd4-85ac-a603827b9016
+formfactor=0
+immutability=1
+lastScreen=3
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][55][ConfigDialog]
+DialogHeight=720
+DialogWidth=960
+
+[Containments][55][General]
+ToolBoxButtonState=topcenter
+ToolBoxButtonX=309
+
+[Containments][55][Wallpaper][org.kde.image][General]
+Image=file:///home/florian/dotfiles/wallpapers/framework/Abstract_1-hue_logo.jpg
+SlidePaths=/usr/share/plasma/wallpapers,/usr/share/wallpapers
 
 [ScreenMapping]
 itemsOnDisabledScreens=
