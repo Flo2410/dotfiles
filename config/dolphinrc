@@ -1,0 +1,42 @@
+MenuBar=Disabled
+
+[$Version]
+update_info=dolphin_detailsmodesettings.upd:rename-leading-padding
+
+[DetailsMode]
+PreviewSize=16
+
+[FileDialogSize]
+eDP-1 DP-2 Height 1805x1203=598
+eDP-1 DP-2 Width 1805x1203=844
+
+[General]
+ConfirmClosingMultipleTabs=false
+RememberOpenedTabs=false
+ShowFullPath=true
+Version=202
+ViewPropsTimestamp=2023,2,10,14,30,56.159
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=22
+
+[KPropertiesDialog]
+eDP-1 DP-2 Height 1805x1203=685
+eDP-1 DP-2 Width 1805x1203=1003
+eDP-1 Height 1805x1203=616
+eDP-1 Width 1805x1203=438
+
+[MainWindow]
+MenuBar=Disabled
+ToolBarsMovable=Disabled
+
+[Open-with settings]
+CompletionMode=1
+History=kate,kat
+
+[PreviewSettings]
+Plugins=appimagethumbnail,audiothumbnail,blenderthumbnail,comicbookthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,mobithumbnail,opendocumentthumbnail,gsthumbnail,rawthumbnail,svgthumbnail,ffmpegthumbs
+
+[Search]
+What=Content

@@ -1,0 +1,6 @@
+- defaults:
+    link:
+      force: true
+
+- link:
+    ~/.config/dolphinrc: config/dolphinrc
