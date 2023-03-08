@@ -1,0 +1,9 @@
+- link:
+    ~/.config/gestures.conf: config/gestures.conf
+
+- shell:
+    - [
+        git clone git@github.com:natask/gestures.git ~/gestures,
+        Download gestures from GitHub. Plese RUN 'sh ~/gestures/install.sh',
+      ]
+    # - [sh ~/gestures/install.sh, Install gestures]
