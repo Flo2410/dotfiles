@@ -1,0 +1,6 @@
+[PIXA3854:00 093A:0274 Touchpad]
+clickMethodAreas=false
+clickMethodClickfinger=true
+naturalScroll=true
+pointerAcceleration=-0.15
+tapToClick=true

@@ -1,0 +1,7 @@
+[$Version]
+update_info=kscreenlocker.upd:0.1-autolock
+
+[Greeter][Wallpaper][org.kde.image][General]
+Image=/home/florian/dotfiles/wallpapers/framework/Abstract_1-hue_logo.jpg
+PreviewImage=/home/florian/dotfiles/wallpapers/framework/Abstract_1-hue_logo.jpg
+SlidePaths=/usr/share/wallpapers/

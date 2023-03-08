@@ -1,0 +1,60 @@
+[$Version]
+update_info=kwinrules.upd:replace-placement-string-to-enum,kwinrules.upd:use-virtual-desktop-ids
+
+[1]
+Description=Custom settings for konsole
+clientmachine=localhost
+placementrule=2
+position=372,283
+positionrule=3
+size=1540,946
+sizerule=3
+types=1
+wmclass=konsole
+wmclassmatch=1
+
+[19c87645-9d20-482c-925f-81fe5c6fa0b9]
+Description=Application settings for dolphin
+clientmachine=localhost
+wmclass=dolphin
+wmclassmatch=1
+
+[2]
+Description=Custom settings for dolphin
+clientmachine=localhost
+size=1424,865
+sizerule=3
+types=1
+wmclass=dolphin
+wmclassmatch=1
+
+[879104d5-afe8-4296-b41f-54cff630028d]
+Description=Custom settings for konsole
+clientmachine=localhost
+placementrule=2
+types=1
+wmclass=konsole
+wmclassmatch=1
+
+[General]
+count=2
+rules=1,2
+
+[b92839a9-ef25-4992-8eec-16c9d3057b26]
+Description=Application settings for dolphin
+clientmachine=localhost
+size=140,840
+sizerule=3
+wmclass=dolphin
+wmclassmatch=1
+
+[c4e1c0d3-4533-40cd-8ff1-3310e9316f2b]
+Description=Application settings for konsole
+clientmachine=localhost
+position=405,1452
+positionrule=3
+size=1564,943
+sizerule=3
+types=1
+wmclass=konsole
+wmclassmatch=1
