@@ -24,6 +24,7 @@ remove=true
 RightButton;NoModifier=org.kde.contextmenu
 
 [Containments][56]
+ItemGeometries-1920x1200=
 ItemGeometries-2256x1504=
 ItemGeometriesHorizontal=
 activityId=1cdd2437-6fe2-47e0-afce-b4a4b21b2fbb
@@ -42,7 +43,7 @@ DialogWidth=960
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=477
 ToolBoxButtonY=42
-positions={"2256x1504":["5"\\,"18"\\,"desktop:/packages.txt"\\,"2"\\,"12"\\,"desktop:/kglobalshortcutsrc"\\,"2"\\,"13"\\,"desktop:/common-auth"\\,"4"\\,"12"\\,"desktop:/kdeglobals"\\,"2"\\,"14"\\,"desktop:/sudo"\\,"4"\\,"13"\\,"desktop:/sddm"\\,"4"\\,"14"]}
+positions={"2256x1504":["2"\\,"18"\\,"desktop:/packages.txt"\\,"0"\\,"3"\\,"desktop:/kglobalshortcutsrc"\\,"0"\\,"2"\\,"desktop:/common-auth"\\,"0"\\,"0"\\,"desktop:/Maturazeugnis_compressed.pdf"\\,"1"\\,"3"\\,"desktop:/sudo"\\,"0"\\,"5"\\,"desktop:/sddm"\\,"0"\\,"4"]\\,"1920x1200":[""]}
 sortMode=-1
 
 [Containments][56][Wallpaper][org.kde.image][General]
@@ -51,6 +52,7 @@ SlidePaths=/usr/share/wallpapers/
 
 [Containments][57]
 ItemGeometries-1920x1080=
+ItemGeometries-1920x1200=
 ItemGeometriesHorizontal=
 activityId=1cdd2437-6fe2-47e0-afce-b4a4b21b2fbb
 formfactor=0
@@ -59,6 +61,14 @@ lastScreen=1
 location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
+
+[Containments][57][ConfigDialog]
+DialogHeight=720
+DialogWidth=960
+
+[Containments][57][Wallpaper][org.kde.image][General]
+Image=/home/florian/dotfiles/wallpapers/framework/Abstract_1-hue_logo.jpg
+SlidePaths=/usr/share/wallpapers/
 
 [Containments][58]
 ItemGeometries-1920x1080=
@@ -193,15 +203,15 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][65][Applets][83][Configuration]
-PreloadWeight=26
+PreloadWeight=0
 
 [Containments][65][Configuration]
 PreloadWeight=42
 
 [Containments][65][General]
-extraItems=org.kde.plasma.vault,org.kde.plasma.printmanager,org.kde.kscreen,org.kde.plasma.mediacontroller,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardlayout,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.kdeconnect,org.kde.plasma.manage-inputmethod,org.kde.plasma.bluetooth,org.kde.plasma.notifications,org.kde.plasma.networkmanagement,org.kde.kupapplet,org.kde.plasma.volume
-knownItems=org.kde.plasma.vault,org.kde.plasma.printmanager,org.kde.kscreen,org.kde.plasma.mediacontroller,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardlayout,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.kdeconnect,org.kde.plasma.manage-inputmethod,org.kde.plasma.bluetooth,org.kde.plasma.notifications,org.kde.plasma.networkmanagement,org.kde.kupapplet,org.kde.plasma.volume
+extraItems=org.kde.plasma.vault,org.kde.plasma.printmanager,org.kde.kscreen,org.kde.plasma.mediacontroller,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardlayout,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.kdeconnect,org.kde.plasma.manage-inputmethod,org.kde.plasma.bluetooth,org.kde.plasma.notifications,org.kde.plasma.networkmanagement,org.kde.kupapplet,org.kde.plasma.volume
+knownItems=org.kde.plasma.vault,org.kde.plasma.printmanager,org.kde.kscreen,org.kde.plasma.mediacontroller,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardlayout,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.kdeconnect,org.kde.plasma.manage-inputmethod,org.kde.plasma.bluetooth,org.kde.plasma.notifications,org.kde.plasma.networkmanagement,org.kde.kupapplet,org.kde.plasma.volume
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/packages.txt,0,1cdd2437-6fe2-47e0-afce-b4a4b21b2fbb,desktop:/sddm,0,1cdd2437-6fe2-47e0-afce-b4a4b21b2fbb,desktop:/kdeglobals,0,1cdd2437-6fe2-47e0-afce-b4a4b21b2fbb,desktop:/kglobalshortcutsrc,0,1cdd2437-6fe2-47e0-afce-b4a4b21b2fbb,desktop:/sudo,0,1cdd2437-6fe2-47e0-afce-b4a4b21b2fbb,desktop:/common-auth,0,1cdd2437-6fe2-47e0-afce-b4a4b21b2fbb,file:///home/florian/Desktop/STM32 CubeMX.desktop,0,ea856afc-d055-4cd4-85ac-a603827b9016,file:///home/florian/Desktop/MATLAB_R2022b.desktop,0,ea856afc-d055-4cd4-85ac-a603827b9016
+screenMapping=file:///home/florian/Desktop/STM32 CubeMX.desktop,0,ea856afc-d055-4cd4-85ac-a603827b9016,desktop:/sudo,0,1cdd2437-6fe2-47e0-afce-b4a4b21b2fbb,desktop:/Maturazeugnis_compressed.pdf,0,1cdd2437-6fe2-47e0-afce-b4a4b21b2fbb,file:///home/florian/Desktop/MATLAB_R2022b.desktop,0,ea856afc-d055-4cd4-85ac-a603827b9016,desktop:/packages.txt,0,1cdd2437-6fe2-47e0-afce-b4a4b21b2fbb,desktop:/kglobalshortcutsrc,0,1cdd2437-6fe2-47e0-afce-b4a4b21b2fbb,desktop:/common-auth,0,1cdd2437-6fe2-47e0-afce-b4a4b21b2fbb,desktop:/sddm,0,1cdd2437-6fe2-47e0-afce-b4a4b21b2fbb

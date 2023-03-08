@@ -3,6 +3,6 @@
       force: true
 
 - link:
-    ~/.config/krunnerrc: config/krunnerrc
-    ~/.config/plasma-org.kde.plasma.desktop-appletsrc: config/plasma-org.kde.plasma.desktop-appletsrc
-    ~/.config/plasmarc: config/plasmarc
+    ~/.config/:
+      glob: true
+      path: config/kde/*
