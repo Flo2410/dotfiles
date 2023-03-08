@@ -4,7 +4,7 @@ MenuBar=Disabled
 update_info=dolphin_detailsmodesettings.upd:rename-leading-padding
 
 [DetailsMode]
-PreviewSize=16
+PreviewSize=22
 
 [FileDialogSize]
 eDP-1 DP-2 Height 1805x1203=598
@@ -12,6 +12,7 @@ eDP-1 DP-2 Width 1805x1203=844
 
 [General]
 ConfirmClosingMultipleTabs=false
+OpenExternallyCalledFolderInNewTab=true
 RememberOpenedTabs=false
 ShowFullPath=true
 Version=202
@@ -25,7 +26,9 @@ Places Icons Static Size=22
 eDP-1 DP-2 Height 1805x1203=685
 eDP-1 DP-2 Width 1805x1203=1003
 eDP-1 Height 1805x1203=616
+eDP-1 Height 1805x1203 eDP-1=616
 eDP-1 Width 1805x1203=438
+eDP-1 Width 1805x1203 eDP-1=438
 
 [MainWindow]
 MenuBar=Disabled
