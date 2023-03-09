@@ -13,6 +13,7 @@ browserhistoryEnabled=false
 browsertabsEnabled=false
 katesessionsEnabled=false
 konsoleprofilesEnabled=false
+krunner_spellcheckEnabled=false
 org.kde.activities2Enabled=false
 recentdocumentsEnabled=false
 shellEnabled=false
