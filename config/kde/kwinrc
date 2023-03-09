@@ -34,6 +34,9 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 [Tiling][5b7a5ba4-43cc-5910-8e98-f358f9d54b43]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Windows]
+RollOverDesktops=true
+
 [org.kde.kdecoration2]
 ButtonsOnLeft=M
 ButtonsOnRight=IAX
