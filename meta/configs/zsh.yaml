@@ -1,7 +1,3 @@
-- defaults:
-    link:
-      force: false
-
 - shell:
     - [
         'if [ ! -d "$HOME/.oh-my-zsh" ]; then zsh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended; fi',
@@ -12,6 +8,7 @@
     # ZSH
     ~/.zshrc:
       path: zsh/.zshrc
+      force: true
     ~/.oh-my-zsh/custom/aliases.zsh:
       path: zsh/omz/custom/aliases.zsh
     ~/.oh-my-zsh/custom/themes/robbyrussell-custom.zsh-theme:
