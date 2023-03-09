@@ -8,8 +8,8 @@ Recent URLs[$e]=file:$HOME/.config/latte/,file:$HOME/.config/,file:$HOME/,file:$
 detailViewIconSize=16
 
 [KPropertiesDialog]
-eDP-1 Height 2256x1504 eDP-1=526
-eDP-1 Width 2256x1504 eDP-1=339
+eDP-1 Height 2256x1504 eDP-1=761
+eDP-1 Width 2256x1504 eDP-1=1144
 
 [LatteSettingsDialog]
 downloadWindowSize=980,600
@@ -19,6 +19,12 @@ windowSize=1100,750
 columnWidths=60,508,129,104
 sortColumn=3
 sortOrder=0
+
+[LatteSettingsDialog][ViewsDialog]
+columnWidths=60,256,142,135,131
+sortColumn=2
+sortOrder=0
+windowSize=980,630
 
 [PlasmaThemeExtended]
 outlineWidth=1
@@ -39,6 +45,6 @@ metaPressAndHoldEnabled=true
 mouseSensitivity=2
 screenTrackerInterval=2500
 showInfoWindow=true
-singleModeLayoutName=My-Layout
+singleModeLayoutName=Default
 userConfiguredAutostart=true
 version=2

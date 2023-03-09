@@ -3,6 +3,5 @@
       force: true
 
 - link:
-    ~/.config/latte/My-Layout.layout.latte:
-      path: config/latte/My-Layout.layout.latte
+    ~/.config/latte/Default.layout.latte: config/latte/My-Layout.layout.latte
     ~/.config/lattedockrc: config/latte/lattedockrc
