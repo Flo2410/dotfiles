@@ -1,0 +1,8 @@
+flatpak
+snapd
+plasma-discover-backend-flatpa plasma-discover-backend-snap
+fprintd libpam-fprintd
+kdeplasma-addons-data
+kdeplasma-addons-data
+kdeplasma-applets-xrdesktop
+kwin-addons
