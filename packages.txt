@@ -1,7 +1,11 @@
 flatpak
 snapd
 plasma-discover-backend-flatpa plasma-discover-backend-snap
+
 fprintd libpam-fprintd
+
+power-profiles-daemon
+
 kdeplasma-addons-data
 kdeplasma-addons-data
 kdeplasma-applets-xrdesktop
