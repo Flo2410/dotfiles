@@ -12,6 +12,12 @@ Rows=1
 [Effect-windowview]
 BorderActivateAll=9
 
+[NightColor]
+Active=true
+EveningBeginFixed=1900
+Mode=Times
+MorningBeginFixed=0700
+
 [TabBox]
 DesktopMode=0
 LayoutName=compact
