@@ -3,4 +3,5 @@ clickMethodAreas=false
 clickMethodClickfinger=true
 naturalScroll=true
 pointerAcceleration=-0.15
+tapDragLock=true
 tapToClick=true
