@@ -112,9 +112,9 @@ source $ZSH/oh-my-zsh.sh
 # [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 #custom env
-export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+# export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
 # export CPATH=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Perl/5.34/darwin-thread-multi-2level/CORE:$CPATH
-
+export PATH="$PATH:/sbin:$HOME/.local/bin"
 
 #add all ssh keys
 #ssh-add -A
