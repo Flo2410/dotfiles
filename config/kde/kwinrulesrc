@@ -20,6 +20,18 @@ wmclass=dolphin
 wmclassmatch=1
 
 [2]
+Description=Custom settings for konsole
+clientmachine=localhost
+placementrule=2
+position=372,283
+positionrule=3
+size=1540,946
+sizerule=3
+types=1
+wmclass=konsole
+wmclassmatch=1
+
+[3]
 Description=Custom settings for dolphin
 clientmachine=localhost
 size=1424,865
