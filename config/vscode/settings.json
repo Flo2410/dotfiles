@@ -15,7 +15,6 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "editor.formatOnSave": true,
   "editor.fontFamily": "Fira Code",
   "editor.fontSize": 13,
   "editor.fontLigatures": true,
@@ -93,7 +92,8 @@
     }
   ],
   "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
   },
   "[python]": {
     "editor.defaultFormatter": "ms-python.python",
@@ -139,14 +139,13 @@
   "hexeditor.inspectorType": "aside",
   "vscode-color-picker.languages": ["python", "javascript", "typescript", "typescriptreact"],
   "terminal.integrated.defaultProfile.linux": "zsh",
-  "editor.minimap.enabled": false,
   "ltex.language": "de-AT",
   "ltex.additionalRules.motherTongue": "de-AT",
   "ltex.additionalRules.enablePickyRules": true,
   "ltex.configurationTarget": {
-    "dictionary": "user",
-    "disabledRules": "user",
-    "hiddenFalsePositives": "user"
+    "dictionary": "workspaceFolder",
+    "disabledRules": "workspaceFolder",
+    "hiddenFalsePositives": "workspaceFolder"
   },
   "ltex.completionEnabled": true,
   "editor.wordBasedSuggestions": false,
@@ -170,17 +169,28 @@
   "[cmake]": {
     "editor.defaultFormatter": "cheshirekow.cmake-format"
   },
-  "stm32-for-vscode.makePath": "/usr/bin/make",
-  "stm32-for-vscode.openOCDPath": "/home/florian/.config/Code/User/globalStorage/bmd.stm32-for-vscode/@xpack-dev-tools/openocd/0.12.0-1.1/.content/bin/openocd",
-  "stm32-for-vscode.armToolchainPath": "/home/florian/.config/Code/User/globalStorage/bmd.stm32-for-vscode/@xpack-dev-tools/arm-none-eabi-gcc/12.2.1-1.2.1/.content/bin",
   "ltex.dictionary": {
-    "de-DE": ["STM"]
+    "de-AT": ["STM", "HYE"]
   },
   "telemetry.telemetryLevel": "off",
   "idf.espIdfPath": "/home/florian/esp/esp-idf",
   "idf.pythonBinPath": "/home/florian/.espressif/python_env/idf5.0_py3.10_env/bin/python",
   "idf.toolsPath": "/home/florian/.espressif",
   "idf.customExtraPaths": "/home/florian/.espressif/tools/xtensa-esp-elf-gdb/11.2_20220823/xtensa-esp-elf-gdb/bin:/home/florian/.espressif/tools/riscv32-esp-elf-gdb/11.2_20220823/riscv32-esp-elf-gdb/bin:/home/florian/.espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin:/home/florian/.espressif/tools/xtensa-esp32s2-elf/esp-2022r1-11.2.0/xtensa-esp32s2-elf/bin:/home/florian/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin:/home/florian/.espressif/tools/riscv32-esp-elf/esp-2022r1-11.2.0/riscv32-esp-elf/bin:/home/florian/.espressif/tools/esp32ulp-elf/2.35_20220830/esp32ulp-elf/bin:/home/florian/.espressif/tools/cmake/3.24.0/bin:/home/florian/.espressif/tools/openocd-esp32/v0.11.0-esp32-20221026/openocd-esp32/bin:/home/florian/.espressif/tools/ninja/1.10.2:/home/florian/.espressif/tools/esp-rom-elfs/20220823",
-  "idf.customExtraVars": "{\"OPENOCD_SCRIPTS\":\"/home/florian/.espressif/tools/openocd-esp32/v0.11.0-esp32-20221026/openocd-esp32/share/openocd/scripts\",\"ESP_ROM_ELF_DIR\":\"/home/florian/.espressif/tools/esp-rom-elfs/20220823/\"}",
-  "idf.gitPath": "/usr/bin/git"
+  "idf.customExtraVars": {
+    "OPENOCD_SCRIPTS": "/home/florian/.espressif/tools/openocd-esp32/v0.11.0-esp32-20221026/openocd-esp32/share/openocd/scripts",
+    "ESP_ROM_ELF_DIR": "/home/florian/.espressif/tools/esp-rom-elfs/20220823/"
+  },
+  "idf.gitPath": "/usr/bin/git",
+  "ltex.disabledRules": {
+    "de-AT": ["WHITESPACE_RULE"]
+  },
+  "terminal.integrated.inheritEnv": false,
+  "stm32-for-vscode.openOCDPath": "/home/florian/.config/Code/User/globalStorage/bmd.stm32-for-vscode/@xpack-dev-tools/openocd/0.12.0-1.1/.content/bin/openocd",
+  "stm32-for-vscode.makePath": "/usr/bin/make",
+  "stm32-for-vscode.armToolchainPath": "/home/florian/.config/Code/User/globalStorage/bmd.stm32-for-vscode/@xpack-dev-tools/arm-none-eabi-gcc/12.2.1-1.2.1/.content/bin",
+  "vim.smartRelativeLine": true,
+  "editor.minimap.autohide": true,
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.scale": 2
 }
