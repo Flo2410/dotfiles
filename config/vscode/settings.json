@@ -6,6 +6,9 @@
   "explorer.confirmDelete": false,
   "debug.toolBarLocation": "docked",
   "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Night Owl",
+  "workbench.preferredDarkColorTheme": "Night Owl",
+  "workbench.preferredLightColorTheme": "Night Owl Light",
   "jsxBracketSameLine": true,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -128,7 +131,6 @@
   "settingsSync.ignoredSettings": ["editor.formatOnSave"],
   "diffEditor.ignoreTrimWhitespace": false,
   "workbench.startupEditor": "none",
-  "workbench.colorTheme": "Night Owl",
   "prettier.printWidth": 100,
   "npm.keybindingsChangedWarningShown": true,
   "tailwindCSS.emmetCompletions": true,
@@ -192,5 +194,5 @@
   "vim.smartRelativeLine": true,
   "editor.minimap.autohide": true,
   "editor.minimap.renderCharacters": false,
-  "editor.minimap.scale": 2
+  "editor.minimap.scale": 2,
 }
