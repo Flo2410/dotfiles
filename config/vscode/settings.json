@@ -13,11 +13,11 @@
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "tailwindCSS.experimental.classRegex": [],
+  "tailwindCSS.experimental.classRegex": [["clsx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]],
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "prompt",
   "editor.fontFamily": "Fira Code",
   "editor.fontSize": 13,
   "editor.fontLigatures": true,
@@ -25,6 +25,7 @@
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
   "editor.renderWhitespace": "all",
+  "editor.formatOnSave": true,
   "editor.tokenColorCustomizations": {
     "[Night Owl]": {
       "textMateRules": [
@@ -96,7 +97,7 @@
   ],
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true,
+    "editor.formatOnSave": true
   },
   "[python]": {
     "editor.defaultFormatter": "ms-python.python",
@@ -113,7 +114,7 @@
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "python.defaultInterpreterPath": "/usr/local/bin/python3",
-  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "prompt",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "languageTool.language": "en",
   "keyboard.touchbar.ignored": [
@@ -194,5 +195,5 @@
   "vim.smartRelativeLine": true,
   "editor.minimap.autohide": true,
   "editor.minimap.renderCharacters": false,
-  "editor.minimap.scale": 2,
+  "editor.minimap.scale": 2
 }
