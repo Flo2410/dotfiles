@@ -45,5 +45,11 @@
     "prefix": ["expaaf"],
     "body": ["export const ${1:fn} = async ($2) => {", "\t$0", "}"],
     "description": "Export an async arrow function"
+  },
+  "uc": {
+    "scope": "javascript,typescript,javascriptreact,typescriptreact",
+    "prefix": ["uc"],
+    "body": ["\"use client\";$0"],
+    "description": "Insert \"use client\""
   }
 }
