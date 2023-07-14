@@ -33,6 +33,9 @@ alias gap="git add -p"
 alias mjölnir="~/syncthing/Development/reverse-engineering/Mjölnir/mjölnir.sh"
 alias clip="xclip -sel clip"
 
+#docker 
+alias docker.rm-dangling="docker rmi \$(docker images --filter "dangling=true" -q --no-trunc)"
+
 # onedrive
 # alias odsync="onedrive --synchronize --verbose"
 
