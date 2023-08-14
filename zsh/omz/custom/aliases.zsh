@@ -1,9 +1,8 @@
 # go into the programming folder
 alias go.dev="cd ~/syncthing/Development"
-alias go.node="cd ~/syncthing/Development/Node"
-alias go.web="cd ~/syncthing/Development/Web"
-alias go.react="cd ~/syncthing/Development/React"
-alias go.dpl="cd ~/syncthing/Development/Node/dpl_v4"
+alias go.node="cd ~/syncthing/Development/node"
+alias go.react="cd ~/syncthing/Development/react"
+alias go.dpl="cd ~/syncthing/Development/node/dpl_v4"
 alias go.esp="cd ~/syncthing/Development/esp"
 
 # go into fhwn folders
