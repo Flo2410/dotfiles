@@ -4,11 +4,12 @@ alias go.node="cd ~/syncthing/Development/node"
 alias go.react="cd ~/syncthing/Development/react"
 alias go.dpl="cd ~/syncthing/Development/node/dpl_v4"
 alias go.esp="cd ~/syncthing/Development/esp"
+alias go.rust="cd ~/syncthing/Development/rust"
 
 # go into fhwn folders
-alias go.fhwnRoot="cd ~/syncthing/Dokumente/Schule/FHWN/"
-alias go.fhwn="go.fhwnRoot"
+alias go.fhwn="cd ~/syncthing/Dokumente/Schule/FHWN/"
 alias go.bac="cd ~/syncthing/Dokumente/Schule/FHWN/BRO/6_Semester_S2023/BAC"
+alias go.aero="go.fhwn && cd AERO/1_Semester_WS23/"
 
 # load esp-idf
 alias load.idf=". $HOME/esp/esp-idf/export.sh"
