@@ -4,7 +4,7 @@ These are my dotfiles.
 
 ## Use it
 
-> ❗**Attention**: Please chagnge the user in the `git/config`.
+> ❗**Attention**: Please change the user settings in the `git/config`.
 
 Clone this repository:
 
