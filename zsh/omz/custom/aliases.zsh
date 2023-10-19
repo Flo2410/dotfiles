@@ -32,6 +32,7 @@ alias gap="git add -p"
 
 # custom stuff
 alias mjölnir="~/syncthing/Development/reverse-engineering/Mjölnir/mjölnir.sh"
+alias ros2-docker="~/syncthing/Development/ros/ros2-docker/ros2-docker.sh"
 alias clip="xclip -sel clip"
 
 #docker 
