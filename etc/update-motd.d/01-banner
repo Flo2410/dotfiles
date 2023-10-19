@@ -1,0 +1,8 @@
+#!/bin/sh
+
+# Call the color file
+. /etc/update-motd.d/colors
+
+# Print system info
+echo "$(lsb_release -is) $(lsb_release -rs)" $YELLOW "($(lsb_release -cs))" $NONE "($(uname -o)" "$(uname -r)" "$(uname -m))"
+printf "\n"

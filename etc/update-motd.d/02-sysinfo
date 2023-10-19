@@ -1,0 +1,71 @@
+#!/bin/bash
+
+# Call the color file
+. /etc/update-motd.d/colors
+
+# Process info
+proc=`cat /proc/cpuinfo | grep model | cut -c14- | sed -n "2 p"`
+# Remove spaces Before/After
+proc=$(echo "${proc}" | sed 's/^ *//g')
+# Get the number of cores
+cores=`cat /proc/cpuinfo | grep -i "^processor" | wc -l`
+# RAM/SWAP Free and Total
+memfree=`cat /proc/meminfo | grep MemFree | awk {'print $2'}`
+memtotal=`cat /proc/meminfo | grep MemTotal | awk {'print $2'}`
+swaptotal=`cat /proc/meminfo | grep SwapTotal | awk {'print $2 " " $3'}`
+percentfree=$((($memfree * 100)/$memtotal))
+# Uptime
+uptime=`uptime -p`
+# IP
+ipaddr=`hostname -I | cut -d " " -f1`
+# Get the number of running processes
+process=`ps ax | wc -l | tr -d " "`
+# Diskusage
+diskused=`df -h | grep "VM-SSD" | awk {'print $5 "% of " $2'}`
+
+# Get the loadavg
+read one five fifteen rest < /proc/loadavg
+
+# Displaying variables
+printf ""$LIGHT_GREEN
+printf "Processor  :"
+printf ""$NONE
+printf " $proc ($cores cores)"
+printf "\n"
+printf ""$LIGHT_GREEN
+printf "CPU        :"
+printf ""$NONE
+printf " $one (1min) / $five (5min) / $fifteen (15min)"
+printf "\n"
+printf ""$LIGHT_GREEN
+printf "RAM        :"
+printf ""$NONE
+printf " $(($memfree/1024)) MB or $percentfree%% Free / $(($memtotal/1024)) MB Total"
+printf "\n"
+printf ""$LIGHT_GREEN
+printf "Swap       :"
+printf ""$NONE
+printf " $swaptotal"
+printf "\n"
+printf ""$LIGHT_GREEN
+printf "Processes  :"
+printf ""$NONE
+printf " $process"
+printf "\n"
+printf ""$LIGHT_GREEN
+printf "Disk Usage :"
+printf ""$NONE
+printf " $diskused"
+printf "\n"
+printf ""$LIGHT_GREEN
+printf "IP Adress  :"
+printf ""$LIGHT_RED
+printf " $ipaddr"
+printf ""$NONE
+printf "\n"
+printf ""$LIGHT_GREEN
+printf "Uptime     :"
+printf ""$NONE
+printf " $uptime"
+printf "\n"
+printf "\n"

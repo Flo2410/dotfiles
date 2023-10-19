@@ -1,0 +1,9 @@
+#!/bin/sh
+
+# Call the color file
+. /etc/update-motd.d/colors
+
+# Print the hostname with figlet
+printf "\n"$GREEN
+figlet $(hostname -s)
+printf $NONE

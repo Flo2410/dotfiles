@@ -1,0 +1,8 @@
+- defaults:
+    link:
+      force: true
+
+- link:
+    /etc/update-motd.d/:
+      glob: true
+      path: etc/update-motd.d/*
