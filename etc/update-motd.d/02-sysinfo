@@ -17,7 +17,8 @@ percentfree=$((($memfree * 100)/$memtotal))
 # Uptime
 uptime=`uptime -p`
 # IP
-ipaddr=`hostname -I | cut -d " " -f1`
+#ipaddr=`hostname -I | cut -d " " -f1`
+ipaddr=`hostname -I | sed -e "s/ /, /g"`
 # Get the number of running processes
 process=`ps ax | wc -l | tr -d " "`
 # Diskusage
@@ -28,43 +29,43 @@ read one five fifteen rest < /proc/loadavg
 
 # Displaying variables
 printf ""$LIGHT_GREEN
-printf "Processor  :"
+printf "Processor   :"
 printf ""$NONE
 printf " $proc ($cores cores)"
 printf "\n"
 printf ""$LIGHT_GREEN
-printf "CPU        :"
+printf "CPU         :"
 printf ""$NONE
 printf " $one (1min) / $five (5min) / $fifteen (15min)"
 printf "\n"
 printf ""$LIGHT_GREEN
-printf "RAM        :"
+printf "RAM         :"
 printf ""$NONE
 printf " $(($memfree/1024)) MB or $percentfree%% Free / $(($memtotal/1024)) MB Total"
 printf "\n"
 printf ""$LIGHT_GREEN
-printf "Swap       :"
+printf "Swap        :"
 printf ""$NONE
 printf " $swaptotal"
 printf "\n"
 printf ""$LIGHT_GREEN
-printf "Processes  :"
+printf "Processes   :"
 printf ""$NONE
 printf " $process"
 printf "\n"
 printf ""$LIGHT_GREEN
-printf "Disk Usage :"
+printf "Disk Usage  :"
 printf ""$NONE
 printf " $diskused"
 printf "\n"
 printf ""$LIGHT_GREEN
-printf "IP Adress  :"
+printf "IP Adresses :"
 printf ""$LIGHT_RED
 printf " $ipaddr"
 printf ""$NONE
 printf "\n"
 printf ""$LIGHT_GREEN
-printf "Uptime     :"
+printf "Uptime      :"
 printf ""$NONE
 printf " $uptime"
 printf "\n"
