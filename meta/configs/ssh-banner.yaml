@@ -2,6 +2,12 @@
     link:
       force: true
 
+- shell:
+  - [
+      cp /dev/null /etc/motd,
+      remove default motd,
+    ]
+
 - link:
     /etc/update-motd.d/:
       glob: true
