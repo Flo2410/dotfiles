@@ -7,8 +7,8 @@ alias go.esp="cd ~/syncthing/Development/esp"
 alias go.rust="cd ~/syncthing/Development/rust"
 
 # go into fhwn folders
-alias go.fhwn="cd ~/syncthing/Dokumente/Schule/FHWN/"
-alias go.bac="cd ~/syncthing/Dokumente/Schule/FHWN/BRO/6_Semester_S2023/BAC"
+alias go.fhwn="cd ~/syncthing/FHWN/"
+alias go.bac="cd ~/syncthing/FHWN/BRO/6_Semester_S2023/BAC"
 alias go.aero="go.fhwn && cd AERO/1_Semester_WS23/"
 
 # load esp-idf
