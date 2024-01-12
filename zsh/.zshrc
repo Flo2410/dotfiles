@@ -122,6 +122,9 @@ export PATH="$PATH:/sbin:$HOME/.local/bin"
 export EDITOR=/usr/bin/nano
 export VISUAL=/usr/bin/nano
 
+export FFSEND_HOST=https://send.hye.dev
+export FFSEND_COPY=true
+
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 __conda_setup="$('/home/florian/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
