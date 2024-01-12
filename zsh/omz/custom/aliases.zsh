@@ -22,7 +22,7 @@ alias settings.conda.hide_env="conda config --set changeps1 false"
 alias delete.ds="find . -name '.DS_Store' -type f -print -delete"
 
 # mounts
-alias mount.florian="sudo mount -t cifs  //sagittarius-a.milkyway/florian /mnt/florian -o user=florian"
+alias mount.florian="sudo mount -t cifs  //sagittarius-a.hye.network/florian /mnt/florian -o user=florian,uid=1000,gid=1000,dir_mode=0755,file_mode=0755"
 alias mount.win11="sudo mount -t cifs  //192.168.122.196/c /mnt/win11_c -o user=florian,uid=1000,gid=1000,dir_mode=0755,file_mode=0755"
 
 alias zsh.reload=". ~/.zshrc"
