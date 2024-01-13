@@ -3,3 +3,6 @@
 [user]
 	name = Flo2410
 	email = florian@hye.dev
+	signingkey = 8ECB00AC5216DC7F
+[commit]
+	gpgsign = true

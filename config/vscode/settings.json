@@ -1,6 +1,7 @@
 {
   "git.autofetch": true,
   "git.confirmSync": false,
+  "git.enableCommitSigning": true,
   "terminal.integrated.defaultProfile.osx": "zsh",
   "terminal.integrated.fontFamily": "Fira Code",
   "explorer.confirmDelete": false,
