@@ -57,5 +57,11 @@
     "prefix": ["llog"],
     "body": ["console.log(\"$0\",$0)"],
     "description": "Log a variable and its name"
+  },
+  "tit": {
+    "scope": "latex, tex",
+    "prefix": ["tit", "\\tit"],
+    "body": ["\\textit{$0}"],
+    "description": "Text italic"
   }
 }
