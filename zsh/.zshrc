@@ -114,7 +114,7 @@ source $ZSH/oh-my-zsh.sh
 #custom env
 # export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
 # export CPATH=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Perl/5.34/darwin-thread-multi-2level/CORE:$CPATH
-export PATH="$PATH:/sbin:$HOME/.local/bin"
+export PATH="$PATH:/sbin:$HOME/.local/bin:/snap/bin"
 
 #add all ssh keys
 #ssh-add -A
