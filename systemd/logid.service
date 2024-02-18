@@ -6,7 +6,7 @@ Wants=multi-user.target
 
 [Service]
 Type=simple
-ExecStart=/usr/local/bin/logid -c /home/florian/.config/logid.cfg # TODO: fix the filepath
+ExecStart=/usr/bin/logid -c /home/florian/.config/logid.cfg # TODO: fix the filepath
 User=root
 
 [Install]
