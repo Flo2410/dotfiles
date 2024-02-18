@@ -1,0 +1,25 @@
+- defaults:
+    link:
+      force: true
+
+- link:
+    ~/.config/logid.cfg: config/logid.cfg
+
+- shell:
+  - command: sudo apt-get install build-essential cmake pkg-config libevdev-dev libudev-dev libconfig++-dev libglib2.0-dev
+    description: Install dependencies.
+    
+  - command: git clone https://github.com/PixlOne/logiops.git --depth 1 ~/.local/programs/logiops
+    description: Download LogiOps from GitHub.
+    
+  - command: mkdir ~/.local/programs/logiops/build && cd ~/.local/programs/logiops/build && cmake -DCMAKE_BUILD_TYPE=Release .. && make
+    description: Build LogiOps
+    stdout: true
+    stderr: true
+
+  - command: cd ~/.local/programs/logiops/build && sudo make install
+    description: Installing LogiOps 
+
+  - command: sudo systemctl enable --now $HOME/dotfiles/systemd/logid.service
+    description: Enable LogiOps service
+
