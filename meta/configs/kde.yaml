@@ -6,3 +6,7 @@
     ~/.config/:
       glob: true
       path: config/kde/*
+
+- shell:
+  - command: sudo apt-get install kwin-addons -y
+    description: Install kwin-addons.
