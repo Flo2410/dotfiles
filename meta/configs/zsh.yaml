@@ -1,8 +1,8 @@
 - shell:
-    - [
-        'if [ ! -d "$HOME/.oh-my-zsh" ]; then zsh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended; fi',
-        Installing oh-my-zsh,
-      ]
+    - command: 'if [ ! -d "$HOME/.oh-my-zsh" ]; then zsh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended; fi'
+      description: Installing oh-my-zsh
+    - command: curl -sS https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | bash
+      description: Installing zoxide
 
 - link:
     # ZSH

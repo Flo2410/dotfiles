@@ -148,3 +148,5 @@ export BUN_INSTALL="$HOME/.bun"
 export PATH=$BUN_INSTALL/bin:$PATH
 
 export GPG_TTY=$TTY
+
+eval "$(zoxide init zsh --cmd cd)"
