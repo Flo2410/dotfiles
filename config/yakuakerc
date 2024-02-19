@@ -16,7 +16,6 @@ detailViewIconSize=16
 hinding_title_bar=false
 
 [Shortcuts]
-close-session=Ctrl+W
 new-session=Ctrl+T
 
 [Window]
