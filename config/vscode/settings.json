@@ -62,7 +62,7 @@
     "*.ipynb": "jupyter.notebook.ipynb"
   },
   "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.json-language-features"
   },
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -101,14 +101,14 @@
     "editor.formatOnSave": true
   },
   "[python]": {
-    "editor.defaultFormatter": "ms-python.python",
+    "editor.defaultFormatter": "ms-python.black-formatter",
     "editor.insertSpaces": true,
     "editor.tabSize": 4,
     "editor.formatOnType": true
   },
   "python.formatting.autopep8Path": "",
   "python.formatting.provider": "black",
-  "python.formatting.blackArgs": ["--line-length", "200"],
+  "python.formatting.blackArgs": ["--line-length", "150"],
   "python.languageServer": "Pylance",
   "i18n-ally.defaultNamespace": "common",
   "i18n-ally.dirStructure": "auto",
@@ -161,7 +161,7 @@
     "hiddenFalsePositives": "workspaceFolder"
   },
   "ltex.completionEnabled": true,
-  "editor.wordBasedSuggestions": false,
+  "editor.wordBasedSuggestions": "off",
   "[rust]": {
     "editor.defaultFormatter": "rust-lang.rust-analyzer"
   },
@@ -175,7 +175,7 @@
   },
   "[latex]": {
     "editor.defaultFormatter": "James-Yu.latex-workshop",
-    "editor.formatOnSave": false
+    "editor.formatOnSave": true
   },
   "redhat.telemetry.enabled": false,
   "terminal.external.osxExec": "iTerm.app",
@@ -187,14 +187,14 @@
   },
   "telemetry.telemetryLevel": "off",
   "idf.espIdfPath": "/home/florian/esp/esp-idf",
-  "idf.pythonBinPath": "/home/florian/.espressif/python_env/idf5.0_py3.10_env/bin/python",
+  "idf.pythonBinPath": "/home/florian/.espressif/python_env/idf5.1_py3.11_env/bin/python",
   "idf.toolsPath": "/home/florian/.espressif",
-  "idf.customExtraPaths": "/home/florian/.espressif/tools/xtensa-esp-elf-gdb/11.2_20220823/xtensa-esp-elf-gdb/bin:/home/florian/.espressif/tools/riscv32-esp-elf-gdb/11.2_20220823/riscv32-esp-elf-gdb/bin:/home/florian/.espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin:/home/florian/.espressif/tools/xtensa-esp32s2-elf/esp-2022r1-11.2.0/xtensa-esp32s2-elf/bin:/home/florian/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin:/home/florian/.espressif/tools/riscv32-esp-elf/esp-2022r1-11.2.0/riscv32-esp-elf/bin:/home/florian/.espressif/tools/esp32ulp-elf/2.35_20220830/esp32ulp-elf/bin:/home/florian/.espressif/tools/cmake/3.24.0/bin:/home/florian/.espressif/tools/openocd-esp32/v0.11.0-esp32-20221026/openocd-esp32/bin:/home/florian/.espressif/tools/ninja/1.10.2:/home/florian/.espressif/tools/esp-rom-elfs/20220823",
+  "idf.customExtraPaths": "/home/florian/.espressif/tools/xtensa-esp-elf-gdb/12.1_20221002/xtensa-esp-elf-gdb/bin:/home/florian/.espressif/tools/riscv32-esp-elf-gdb/12.1_20221002/riscv32-esp-elf-gdb/bin:/home/florian/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin:/home/florian/.espressif/tools/xtensa-esp32s2-elf/esp-12.2.0_20230208/xtensa-esp32s2-elf/bin:/home/florian/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin:/home/florian/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin:/home/florian/.espressif/tools/esp32ulp-elf/2.35_20220830/esp32ulp-elf/bin:/home/florian/.espressif/tools/openocd-esp32/v0.12.0-esp32-20230419/openocd-esp32/bin:/home/florian/.espressif/tools/ninja/1.10.2:/home/florian/.espressif/tools/esp-rom-elfs/20230320",
   "idf.customExtraVars": {
-    "OPENOCD_SCRIPTS": "/home/florian/.espressif/tools/openocd-esp32/v0.11.0-esp32-20221026/openocd-esp32/share/openocd/scripts",
-    "ESP_ROM_ELF_DIR": "/home/florian/.espressif/tools/esp-rom-elfs/20220823/"
+    "OPENOCD_SCRIPTS": "/home/florian/.espressif/tools/openocd-esp32/v0.12.0-esp32-20230419/openocd-esp32/share/openocd/scripts",
+    "ESP_ROM_ELF_DIR": "/home/florian/.espressif/tools/esp-rom-elfs/20230320/"
   },
-  "idf.gitPath": "/usr/bin/git",
+  "idf.gitPath": "git",
   "ltex.disabledRules": {
     "de-AT": ["WHITESPACE_RULE"]
   },
@@ -205,5 +205,21 @@
   "vim.smartRelativeLine": true,
   "editor.minimap.autohide": true,
   "editor.minimap.renderCharacters": false,
-  "editor.minimap.scale": 2
+  "editor.minimap.scale": 2,
+  "[xml]": {
+    "editor.defaultFormatter": "DotJoshJohnson.xml"
+  },
+"cmake.showOptionsMovedNotification": false,
+"remote.autoForwardPortsSource": "hybrid",
+"[markdown]": {
+  "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+},
+"[c]": {
+  "editor.defaultFormatter": "ms-vscode.cpptools"
+},
+"[bibtex]": {
+  "editor.defaultFormatter": "James-Yu.latex-workshop"
+},
+"idf.showOnboardingOnInit": false,
+"gitlens.graph.layout": "editor"
 }

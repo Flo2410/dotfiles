@@ -83,5 +83,9 @@
 {
   "key": "ctrl+[Backslash]",
   "command": "terminal.focus"
+},
+{
+    "key": "ctrl+shift+7",
+    "command": "-coverage-gutters.displayCoverage"
 }
 ]
