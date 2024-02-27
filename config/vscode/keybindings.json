@@ -87,5 +87,18 @@
 {
     "key": "ctrl+shift+7",
     "command": "-coverage-gutters.displayCoverage"
+},
+{
+  "key": "alt+o",
+  "command": "-C_Cpp.SwitchHeaderSource",
+  "when": "editorTextFocus && editorLangId =~ /^(c|(cuda-)?cpp)$/ && !(config.C_Cpp.intelliSenseEngine =~ /^[dD]isabled$/)"
+},
+{
+  "key": "alt+o",
+  "command": "workbench.action.splitEditor"
+},
+{
+  "key": "alt+p",
+  "command": "workbench.action.splitEditorDown"
 }
 ]
