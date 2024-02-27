@@ -38,6 +38,9 @@ alias clip="xclip -sel clip"
 #docker 
 alias docker.rm-dangling="docker rmi \$(docker images --filter "dangling=true" -q --no-trunc)"
 
+#exit
+alias xx="exit"
+
 # onedrive
 # alias odsync="onedrive --synchronize --verbose"
 
