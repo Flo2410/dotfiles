@@ -27,6 +27,7 @@
   "editor.guides.bracketPairs": "active",
   "editor.renderWhitespace": "all",
   "editor.formatOnSave": true,
+  "explorer.compactFolders": false,
   "editor.tokenColorCustomizations": {
     "[Night Owl]": {
       "textMateRules": [
